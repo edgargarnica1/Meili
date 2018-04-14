@@ -110,12 +110,13 @@ h1 {
 }
 	h1 a {
 		display:block; 
-		width:311px;
-		height:79px;
+		width:389px;
+		height:250px;
 		text-indent:-9999em;
-		background:url(../images/logo.png) 0 0 no-repeat;
-		float:left;
-		margin-right:20px;
+		background:url(../images/logoSF.png) 0 0 no-repeat;
+		float:center;
+		position:center;
+		
 	}
 	h1 em {
 		display:inline-block;
@@ -125,6 +126,10 @@ h1 {
 		padding-top:25px;
 		letter-spacing:-1px;
 	}
+
+.logo{
+	text-align: center;
+}
 	
 /***** main-menu *****/
 .main-menu {
@@ -189,7 +194,7 @@ h1 {
 }
 	.pagination li {
 		float:left; 
-		background:url(../images/pagination-a.png) left bottom repeat-x #000;
+		background:url(../images/pagination-a1.png) left bottom repeat-x #fff;
 	}
 		.pagination a {
 			display:block;
@@ -205,7 +210,7 @@ h1 {
 		}
 		.pagination li:first-child a {background:none;}
 		.pagination .current,
-		.pagination li:hover {background-position:left top; background-color:#f78f07;}
+		.pagination li:hover {background-position:left top; background-color:#FF0080;}
 		.pagination .current a {cursor:default;}
 
 /*********************************content*************************************/
@@ -260,7 +265,7 @@ h6 {color:#000; font-weight:normal;}
 	background:url(../images/button-tail.gif) 0 0 repeat-x #141414;
 	cursor:pointer;
 }
-.button:hover {background:#f78f07;}
+.button:hover {background:#FF0080;}
 
 .button2 {
 	display:inline-block; 
